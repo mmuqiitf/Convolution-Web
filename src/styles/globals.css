@@ -12,6 +12,7 @@
 
 body {
 	background-color: var(--white-primary);
+	font-family: "Economica", "Poppins", sans-serif !important;
 }
 .text-accent {
 	color: var(--red-primary);

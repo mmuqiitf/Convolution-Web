@@ -27,5 +27,8 @@
 		"react-zoom-pan-pinch": "^3.0.2",
 		"reactour": "^1.19.0",
 		"typescript": "5.0.2"
+	},
+	"devDependencies": {
+		"@types/bootstrap": "^5.2.6"
 	}
 }

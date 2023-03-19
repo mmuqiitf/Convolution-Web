@@ -57,6 +57,7 @@ export default function Home() {
 								width={200}
 								alt="Logo Itenas"
 								className="img-fluid"
+								priority={true}
 							/>
 						</div>
 						<div className="d-flex">
