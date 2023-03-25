@@ -294,26 +294,20 @@ a.dropdown-item {
 	background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
 }
 
-.icon i,
-.icon a {
+.tools-icon {
 	color: var(--red-primary);
 	font-size: 25px;
 	margin: 0 3px;
 	transition: 0.2s ease-in-out;
 }
 
-.icon i:hover,
-.icon a:hover {
+.tools-icon:hover {
 	cursor: pointer;
-	font-size: 30px;
+	scale: 1.2;
 }
 
 #status {
 	color: #fff;
-}
-
-div.image {
-	margin-top: 10px;
 }
 
 select.form-control {

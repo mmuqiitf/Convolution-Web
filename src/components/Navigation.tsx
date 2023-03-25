@@ -5,17 +5,14 @@ import Link from "next/link";
 import { economica } from "@/app/fonts";
 import { BsCaretDownFill } from "react-icons/bs";
 
-interface SubMenuItem {
+type NavigationBase = {
 	name: string;
 	link?: string;
 	target?: string;
-}
-
-interface NavigationItem {
-	name: string;
-	link?: string;
+};
+interface SubMenuItem extends NavigationBase {}
+interface NavigationItem extends NavigationBase {
 	subMenu?: Array<SubMenuItem>;
-	target?: string;
 	as?: "a" | "button";
 }
 

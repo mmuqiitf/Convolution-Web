@@ -1,4 +1,4 @@
-import { Economica, Poppins } from "@next/font/google";
+import { Economica, Poppins } from "next/font/google";
 
 export const economica = Economica({
 	weight: ["400", "700"],

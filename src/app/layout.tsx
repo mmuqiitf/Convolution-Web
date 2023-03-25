@@ -1,4 +1,5 @@
 import Layout from "@/components/layouts/Layout";
+import { ReduxProvider } from "./redux-provider";
 
 export const metadata = {
 	title: "Convolution Simulation",
@@ -10,5 +11,9 @@ export default function RootLayout({
 }: {
 	children: React.ReactNode;
 }) {
-	return <Layout>{children}</Layout>;
+	return (
+		<ReduxProvider>
+			<Layout>{children}</Layout>
+		</ReduxProvider>
+	);
 }

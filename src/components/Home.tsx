@@ -5,7 +5,6 @@ import Link from "next/link";
 import ImageBanner2 from "@/images/image-banner-2.png";
 import LogoItenas from "@/images/logo-itenas-2.png";
 import { motion } from "framer-motion";
-import { Poppins } from "@next/font/google";
 import { economica, poppins } from "@/app/fonts";
 
 const containerVariants = {
